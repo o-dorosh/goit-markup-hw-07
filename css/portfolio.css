@@ -111,8 +111,7 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-btn:hover,
-.filter-btn:focus {
+.filter-btn:hover, .filter-btn:focus {
   color: #FFFFFF;
   background-color: var(--accent-color);
 }
@@ -127,14 +126,6 @@ button {
 
 .filter-btn .apps {
   min-width: 145px;
-}
-
-.filter-btn .design {
-  min-width: 103px;
-}
-
-.filter-btn .marketing {
-  min-width: 130px;
 }
 
 .filter-item:not(:last-child) {
@@ -157,6 +148,38 @@ button {
   border-color: transparent;
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-link:hover, .social-list-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team .social-list-link:hover .social-list-icon,
+.team .social-list-link:focus .social-list-icon {
+  fill: #FFFFFF;
 }
 
 .header .container {
@@ -225,8 +248,20 @@ button {
   color: var(--secondary-color);
 }
 
+.address-link:hover, .address-link:focus {
+  color: var(--accent-color);
+}
+
 .navigation-link {
   color: var(--main-color);
+}
+
+.navigation-link:hover, .navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.navigation-link.current {
+  color: var(--accent-color);
 }
 
 .adress-icon {
@@ -238,17 +273,6 @@ button {
 .address-link:hover .adress-icon,
 .address-link:focus .adress-icon {
   fill: var(--accent-color);
-}
-
-.navigation-link:hover,
-.navigation-link:focus,
-.address-link:hover,
-.address-link:focus {
-  color: var(--accent-color);
-}
-
-.navigation-link.current {
-  color: var(--accent-color);
 }
 
 .current::after {
@@ -279,8 +303,7 @@ button {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio-item:hover, .portfolio-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -342,79 +365,10 @@ button {
   transform: translateY(0%);
 }
 
-.team {
-  background-color: #F5F4FA;
-}
-
-.team-members {
-  display: flex;
-  justify-content: space-between;
-}
-
-.team-member {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.team-member-wrapper {
-  padding: 30px 32px;
-  background-color: #FFFFFF;
-}
-
-.team-member-name {
-  margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.167;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
-.team-member-position {
-  margin-bottom: 16px;
-  font-size: 16px;
-  line-height: 1.167;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--secondary-color);
-}
-
-.social-list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: #FFFFFF;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-list-icon {
-  width: 20px;
-  height: 20px;
-  fill: #AFB1B8;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team .social-list-link:hover,
-.team .social-list-link:focus {
-  background-color: var(--accent-color);
-}
-
-.team .social-list-link:hover .social-list-icon,
-.team .social-list-link:focus .social-list-icon {
-  fill: #FFFFFF;
-}
-
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background: #2F303A;
 }
 
 .footer .container {
@@ -429,10 +383,6 @@ button {
 
 .footer-address-item {
   margin-bottom: 9px;
-}
-
-.footer {
-  background: #2F303A;
 }
 
 .footer .logo-dark-theme {

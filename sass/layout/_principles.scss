@@ -4,6 +4,10 @@
 
 .principles-item{
     width: 270px;
+
+    &:not(:last-child){
+        margin-right: 30px;
+    }
 }
 
 .principles-icon-container{
@@ -22,10 +26,6 @@
     display: block;
     width: 70px;
     height: 70px;
-}
-
-.principles-item:not(:last-child){
-    margin-right: 30px;
 }
 
 .principles-item-title{

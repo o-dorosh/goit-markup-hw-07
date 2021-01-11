@@ -6,8 +6,8 @@
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--main-color);
-}
-
-.logo-accent{
+    
+    &-accent{
     color: var(--accent-color);
+    }
 }

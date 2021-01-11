@@ -1,6 +1,7 @@
 .footer{
     padding-top: 60px;
     padding-bottom: 60px;
+    background: #2F303A;
 }
 
 .footer .container{
@@ -15,10 +16,6 @@
 
 .footer-address-item{
     margin-bottom: 9px;
-}
-
-.footer{
-    background: #2F303A;
 }
 
 .footer .logo-dark-theme{
@@ -100,11 +97,12 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: transparent;
-}
-.subscribe-form-field:focus{
-    outline: none;
-    border-color: var(--accent-color);
-    color: #fff;
+
+    &:focus{
+        outline: none;
+        border-color: var(--accent-color);
+        color: #fff;
+    }
 }
 
 .footer .modal-btn{

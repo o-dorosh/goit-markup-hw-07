@@ -6,6 +6,12 @@
     url('../images/bg-hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
+    .modal-btn{
+        display: block;
+        padding: 10px 32px;
+        margin: auto;
+    }
 }
 
 .hero-title{
@@ -22,10 +28,4 @@
     text-transform: uppercase;
     text-align: center;
     color: #FFFFFF;
-}
-
-.hero .modal-btn{
-    display: block;
-    padding: 10px 32px;
-    margin: auto;
 }
