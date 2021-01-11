@@ -1,0 +1,54 @@
+.filter-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.filter-btn{
+    padding: 6px 22px;
+    height: 38px;
+
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter-btn:hover,
+.filter-btn:focus{
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+} 
+
+.filter-btn .all{
+    min-width: 73px;
+}
+
+.filter-btn .web-sites{
+    min-width: 128px;
+}
+
+.filter-btn .apps{
+    min-width: 145px;
+}
+
+.filter-btn .design{
+    min-width: 103px;
+}
+
+.filter-btn .marketing{
+    min-width: 130px;
+}
+
+.filter-item:not(:last-child){
+    margin-right: 8px;
+}

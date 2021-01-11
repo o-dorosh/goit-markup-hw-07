@@ -1,0 +1,46 @@
+.principles-list{
+    display: flex;
+}
+
+.principles-item{
+    width: 270px;
+}
+
+.principles-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:30px;
+
+    min-width: 270px;
+    min-height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.priciples-icon{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+.principles-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.principles-item-title{
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.principles-item-text{
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color:var(--secondary-color);
+}
