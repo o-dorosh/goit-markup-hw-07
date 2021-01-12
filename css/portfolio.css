@@ -300,6 +300,10 @@ button {
   border-radius: 2px;
 }
 
+.portfolio-item-link {
+  text-decoration: none;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -339,6 +343,7 @@ button {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
+  color: var(--main-color);
 }
 
 .portfolio-description {
