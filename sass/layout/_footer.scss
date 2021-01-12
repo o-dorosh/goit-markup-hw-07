@@ -71,19 +71,6 @@
     color: #FFFFFF;
 }
 
-.footer .social-list-item:not(:last-child){
-    margin-right: 10px;
-}
-
-.footer .social-list-icon{
-    fill: #FFFFFF;
-}
-
-.footer .social-list-link:hover,
-.footer .social-list-link:focus{
-    background-color: var(--accent-color);
-}
-
 .subscribe-form{
     display: flex;
 }

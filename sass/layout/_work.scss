@@ -1,15 +1,15 @@
 
 .work{
     padding-bottom: 94px;
-}
 
-.work-list{
-    display: flex;
-    justify-content: space-between;
-}
+    &-list{
+        display: flex;
+        justify-content: space-between;
+    }
 
-.work-item-overlay{
-    position: relative;
+    &-item-overlay{
+        position: relative;
+    }
 }
 
 .work-item .overlay{

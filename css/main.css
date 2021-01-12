@@ -311,6 +311,19 @@ button {
   fill: #FFFFFF;
 }
 
+.footer .social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer .social-list-icon {
+  fill: #FFFFFF;
+}
+
+.footer .social-list-link:hover,
+.footer .social-list-link:focus {
+  background-color: var(--accent-color);
+}
+
 .header .container {
   display: flex;
   align-items: center;
@@ -537,11 +550,6 @@ button {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-member-wrapper {
-  padding: 30px 32px;
-  background-color: #FFFFFF;
-}
-
 .team-member-name {
   margin-bottom: 10px;
   font-weight: 500;
@@ -558,6 +566,11 @@ button {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--secondary-color);
+}
+
+.team-member-wrapper {
+  padding: 30px 32px;
+  background-color: #FFFFFF;
 }
 
 .customers-title {
@@ -660,19 +673,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
-}
-
-.footer .social-list-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.footer .social-list-icon {
-  fill: #FFFFFF;
-}
-
-.footer .social-list-link:hover,
-.footer .social-list-link:focus {
-  background-color: var(--accent-color);
 }
 
 .subscribe-form {

@@ -182,6 +182,19 @@ button {
   fill: #FFFFFF;
 }
 
+.footer .social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer .social-list-icon {
+  fill: #FFFFFF;
+}
+
+.footer .social-list-link:hover,
+.footer .social-list-link:focus {
+  background-color: var(--accent-color);
+}
+
 .header .container {
   display: flex;
   align-items: center;
@@ -335,7 +348,7 @@ button {
   color: var(--secondary-color);
 }
 
-.portfolio-item-card-thumb .overlay {
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -360,8 +373,8 @@ button {
 .portfolio-item:hover .overlay,
 .portfolio-item:focus .overlay {
   /*opacity: 1;
-    visibility: visible;
-    pointer-events: auto;*/
+        visibility: visible;
+        pointer-events: auto;*/
   transform: translateY(0%);
 }
 
@@ -431,19 +444,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
-}
-
-.footer .social-list-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.footer .social-list-icon {
-  fill: #FFFFFF;
-}
-
-.footer .social-list-link:hover,
-.footer .social-list-link:focus {
-  background-color: var(--accent-color);
 }
 
 .subscribe-form {
