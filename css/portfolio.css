@@ -170,6 +170,11 @@ button {
   background-color: var(--accent-color);
 }
 
+.footer .social-list-link:hover,
+.footer .social-list-link:focus {
+  background-color: var(--accent-color);
+}
+
 .social-list-icon {
   width: 20px;
   height: 20px;
@@ -182,17 +187,12 @@ button {
   fill: #FFFFFF;
 }
 
-.footer .social-list-item:not(:last-child) {
-  margin-right: 10px;
-}
-
 .footer .social-list-icon {
   fill: #FFFFFF;
 }
 
-.footer .social-list-link:hover,
-.footer .social-list-link:focus {
-  background-color: var(--accent-color);
+.footer .social-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .header .container {

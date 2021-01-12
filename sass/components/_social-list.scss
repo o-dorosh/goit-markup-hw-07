@@ -17,6 +17,11 @@
         &:focus{
             background-color: var(--accent-color);
         }
+
+        .footer &:hover,
+        .footer &:focus{
+            background-color: var(--accent-color);
+        }
     }
     
     &-icon{
@@ -29,18 +34,13 @@
         .team .social-list-link:focus &{
             fill: #FFFFFF;
         }
+        
+        .footer &{
+            fill: #FFFFFF;
+        }
     }
 
     .footer &-item:not(:last-child){
         margin-right: 10px;
     }
-}
-
-.footer .social-list-icon{
-    fill: #FFFFFF;
-}
-
-.footer .social-list-link:hover,
-.footer .social-list-link:focus{
-    background-color: var(--accent-color);
 }
